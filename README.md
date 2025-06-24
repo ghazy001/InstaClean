@@ -50,7 +50,27 @@ SESSIONID = "votre_sessionid"
 DS_USER_ID = "votre_user_id"
 ```
 
-> Vous pouvez récupérer ces cookies en vous connectant à Instagram via Safari, puis en allant dans "Développement > Afficher l’inspecteur Web > Storage > Cookies".
+> Pour que l’application fonctionne, vous devez récupérer vos cookies Instagram (`csrftoken`, `sessionid`, `ds_user_id`) depuis votre navigateur. Voici comment faire depuis Safari :
+
+### Étapes pour récupérer les cookies dans Safari :
+
+1. Ouvrez Safari et connectez-vous à votre compte Instagram.
+2. Dans la barre de menu, cliquez sur **Développement** > **Afficher l’inspecteur Web**  
+   (ou utilisez le raccourci clavier `⌘ + ⌥ + I`)
+3. Dans l’inspecteur, allez à l’onglet **Application** (ou Storage).
+4. Dans la colonne de gauche, cliquez sur **Cookies**, puis sélectionnez le domaine **.instagram.com**.
+5. Trouvez et copiez la valeur des cookies suivants :  
+   - `csrftoken`  
+   - `sessionid`  
+   - `ds_user_id`
+6. Collez ces valeurs dans le fichier `app.py` à la section **Configuration** :
+
+```python
+CSRFTOKEN = "votre_csrftoken_ici"
+SESSIONID = "votre_sessionid_ici"
+DS_USER_ID = "votre_ds_user_id_ici"
+
+
 
 4. **Lancez l’application :**
 
