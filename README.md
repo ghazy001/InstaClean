@@ -30,8 +30,8 @@ Une application de bureau avec interface graphique pour **voir qui ne vous suit 
 1. **Téléchargez ou clonez le projet :**
 
 ```bash
-git clone https://github.com/ton-nom/instagram-unfollowers-gui.git
-cd instagram-unfollowers-gui
+git clone https://github.com/ghazy001/InstaClean.git
+cd InstaClean
 ````
 
 2. **Installez les dépendances Python :**
