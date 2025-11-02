@@ -111,7 +111,7 @@ Le fichier sera généré dans le dossier `dist/`.
 ---
 
 ## 👤 Auteur
-
+                                    
 Développée avec ❤️ par Ghazi Saoudi et ChatGPT
 
 ---
