@@ -81,9 +81,9 @@ def predict_gender(name: str) -> dict:
     return {"name": name, "gender": gender, "probability": round(conf, 3), "count": 0}
 
 # ---- DEFAULT TOKENS (prefilled; can be changed in Login modal) ----
-DEFAULT_CSRFTOKEN = "vnPFyAhfKtcnwTcBUgrL3A64ozaZBkAx"
-DEFAULT_SESSIONID = "8273848508%3AMOVx4SxmFuKZhI%3A5%3AAYhZhwV0aj0ymCI1mUTG5EoGwUdilONocHWys6PH5XM"
-DEFAULT_DS_USER_ID = "8273848508"
+DEFAULT_CSRFTOKEN = ""
+DEFAULT_SESSIONID = ""
+DEFAULT_DS_USER_ID = ""
 
 # ---- Filenames base (per-account) ----
 TOKEN_FILE_BASE = "instacreds" # instacreds_<ds_user_id>.json
